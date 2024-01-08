@@ -3,11 +3,41 @@
     padding: 0;
 }
 
+body {
+    max-width: 1600px;
+    margin: auto;
+}
+
 #banner {
     background-color: red;
-    width: 1320px;
+    width: 80%;
     height: 600px;
+    border: 2px solid green;
+    margin: auto;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url("./resources/Banner\ Image.png");
+    background-position: center;
+    background-size: cover;
+
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url("./resources/Banner\ Image.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+#banner h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
 }
