@@ -195,3 +195,79 @@ body {
     border: none;
     margin-top: 64px;
 }
+
+/* coming soon section  */
+#coming-soon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    max-width: 80%;
+    height: 463px;
+    margin: auto;
+}
+
+#coming-soon .div-one h4 {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#coming-soon .div-one h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    text-align: left;
+}
+
+#coming-soon .div-one p {
+    max-width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+#coming-soon .div-two img {
+    max-width: 364px;
+    border: 15px solid #F00;
+    border-radius: 100%;
+    padding: 35px;
+}
+
+#coming-soon .div-three {
+    text-align: center;
+}
+
+#coming-soon .inside-div{
+    max-width: 276px;
+    margin: auto;
+    text-align: left;
+}
+
+#coming-soon .div-three .inside-div  h1 {
+    margin-bottom: 16px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#coming-soon .div-three .inside-div  p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
