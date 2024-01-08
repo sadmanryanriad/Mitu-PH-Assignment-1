@@ -8,6 +8,7 @@ body {
     margin: auto;
 }
 
+/* banner section  */
 #banner {
     background-color: red;
     width: 80%;
@@ -17,8 +18,8 @@ body {
     border-radius: 16px;
     background-position: center;
     background-size: cover;
-
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url("./resources/Banner\ Image.png");
+    /* https://youtu.be/jAXF7oS0RB4?si=mkb3zw3Syilwnkml */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Banner\ Image.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,4 +41,54 @@ body {
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+}
+
+/* off65 section  */
+#off65 {
+    width: 50%;
+    margin: auto;
+    padding: 120px 0;
+    text-align: center;
+}
+
+#off65 h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+#off65 h5 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+#off65 h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+#off65 img{
+    max-height: 500px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
